@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: brentliang/auth
+          image: us.gcr.io/ticketz-dev/auth
 ---
 apiVersion: v1
 kind: Service
